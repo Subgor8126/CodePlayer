@@ -22,7 +22,8 @@ export const categories = [
   { name: 'Java Programming', icon: <CodeIcon />, },
   { name: 'Data Structures', icon: <CodeIcon />, },
   { name: 'Kubernetes', icon: <CodeIcon />, },
-  { name: '.NET Framework', icon: <CodeIcon />, }
+  { name: '.NET Framework', icon: <CodeIcon />, },
+  { name: 'Java Spring', icon: <CodeIcon />, }
 ];
 
 export const demoThumbnailUrl = 'https://i.ibb.co/G2L2Gwp/API-Course.png';
