@@ -27,9 +27,7 @@ const SearchBar = () => {
         pl:2,
         // pl means padding-left
         boxShadow:'none',
-        mr:{ sm:5, md:42 },
-        width: '600px',
-        
+        mr:{ sm:5 }
         // sm:5 means that the mr (margin-right) for small devices (sm) would be 5
      }}
     >
@@ -38,13 +36,11 @@ const SearchBar = () => {
         placeholder="Search..."
         value={searchTerm}
         onChange={(event)=>setSearchTerm(event.target.value)}
-        width="500px"
         />
     <IconButton type="submit"
     sx={{
         p:'10px',
-        color:'red',
-        ml: '200px'
+        color:'red'
     }}>
         <Search/>
     </IconButton>
