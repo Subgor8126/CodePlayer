@@ -36,7 +36,7 @@ const Feed = () => {
       fontWeight="bold" mb={2} sx={{
         color:'white'
       }}>
-        Videos related to  <span style={{color:'#F31503'}}>{selectedCategory}</span>
+        Videos and channels related to  <span style={{color:'#F31503'}}>{selectedCategory}</span>
       </Typography>
 
       <Videos videos={videos}/>
