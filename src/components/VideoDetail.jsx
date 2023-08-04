@@ -109,7 +109,7 @@ const VideoDetail = () => {
         >
           {/* <Videos videos={videos} direction="column" /> */}
           <iframe
-            src="https://trinket.io/embed/html/528c2afd2d"
+            src="https://trinket.io/embed/html/6d540c3004"
             // src="https://replit.com/@SudhanshuGorwad/embedReplInCodePlayer"
             width="650px"
             height="500px"
